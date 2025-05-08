@@ -108,7 +108,8 @@ function Services() {
 
                         <div>
                           <a
-                            href="#"
+                            target="_blank"
+                            href={`https://wa.me/83996199864?text=Olá, Vim pelo site e gostaria de mais informações sobre ${item.title}`}
                             className="flex items-center justify-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300"
                           >
                             Entrar em contato <Phone className="w-4 h-4" />
